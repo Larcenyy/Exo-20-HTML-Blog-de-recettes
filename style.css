@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html body{
+    font-family: Ubuntu;
+    padding: 1rem 1rem 2rem 3rem;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+header nav ul li a{
+    padding: 15px;
+    color:grey
+
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.img-content{
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+.hid{
+
+}
+#btn{
+    border: 2px solid black;
+    border-radius: 18ch;
+    width: 80px;
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.content h1{
+    font-size: 15px;
+
+}
+ul li a:hover{
+    font-size: 16.5px;
+    transition: 5.3;
+}
+.icon-svg{
+    background: black;
+    padding: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 55;
+    transform: translateY(50%);
+    right: -2rem;
+}
+#icon{
+    width: 30px;
+    height: 30px;
+    color:white;
+}
+.icon-svg:hover{
+    background: #696565;
+    transition: 0.3s;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+.foot-box {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+    align-items: center;
+    /* justify-content: center; */
+}
+.foot-box ul{
+    list-style: none;
+}
+.foot-box ul li{
+    text-align: center;
+    background: white;
+    box-shadow: 2px 2px 15px black;
+}
